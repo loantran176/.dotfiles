@@ -1,0 +1,23 @@
+swipe:
+  3:
+    left:
+      command: "xdotool key control+alt+Left" # History forward
+    right:
+      command: "xdotool key control+alt+Right" # History back
+    up:
+      command: "xdotool key super" # Activity
+    down:
+      command: "xdotool key super+h" # Activity
+  4:
+    left:
+      command: "xdotool key control+Page_Up" # History forward
+    right:
+      command: "xdotool key control+Page_Down" # History back
+    up:
+      command: "xdotool key control+t" # Activity
+    down:
+      command: "xdotool key control+w" # Activity
+hold:
+  4:
+    command: "xdotool key super" # Activity
+
